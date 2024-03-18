@@ -25,8 +25,8 @@ Users can leave the application by clicking the "Exit" button in the menu area o
 Having language options in both Turkish and English ensures that users can access the application in their preferred language, making it more accessible and user-friendly for a wider audience.
 
 <p align="center">
-    <img width="400" src="https://github.com/Benguhan/KidZone/blob/main/Images/learnandplayeng.jpg" alt="LearnAndPlay_en">
-    <img width="400" src="https://github.com/Benguhan/KidZone/blob/main/Images/turkish.jpg" alt="LearnAndPlay_tr">
+    <img width="200" src="https://github.com/Benguhan/KidZone/blob/main/Images/learnandplayeng.jpg" alt="LearnAndPlay_en">
+    <img width="200" src="https://github.com/Benguhan/KidZone/blob/main/Images/turkish.jpg" alt="LearnAndPlay_tr">
 </p>
 
 ### Learning and Playing Section
