@@ -11,6 +11,8 @@ The application will provide a registration process where users can create an ac
 In this application, firebase is used as database.
 Users can leave the application by clicking the "Exit" button in the menu area of ​​the program. The user doesn't have to enter their email address and password again in subsequent sessions if they don't click the "Exit" option.
 
+![My Image](Images/login.png)
+
 ### Language Options
 
 Having language options in both Turkish and English ensures that users can access the application in their preferred language, making it more accessible and user-friendly for a wider audience.
