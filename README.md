@@ -11,7 +11,9 @@ The application will provide a registration process where users can create an ac
 In this application, firebase is used as database.
 Users can leave the application by clicking the "Exit" button in the menu area of ​​the program. The user doesn't have to enter their email address and password again in subsequent sessions if they don't click the "Exit" option.
 
+<p align="center">
 ![My Image](Images/login.resized.png)
+</p>
 
 ### Language Options
 
