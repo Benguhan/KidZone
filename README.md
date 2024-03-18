@@ -12,7 +12,7 @@ In this application, firebase is used as database.
 Users can leave the application by clicking the "Exit" button in the menu area of ​​the program. The user doesn't have to enter their email address and password again in subsequent sessions if they don't click the "Exit" option.
 
 <p align="center">
-    <img width="200" src="https://github.com/Benguhan/KidZone/blob/main/Images/login.resized.png" alt="Login">
+    <img width="400" src="https://github.com/Benguhan/KidZone/blob/main/Images/login.resized.png" alt="Login">
 </p>
 
 ### Language Options
