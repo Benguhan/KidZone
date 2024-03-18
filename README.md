@@ -3,15 +3,15 @@
 This Android app's aim is to provide kids between the ages of 7 and 10 a playful and educational platform that will enable them to study and practice several topics in a playful and engaging manner. 
 The program attempts to broaden kids' knowledge and comprehension in a variety of subjects.
 
- ### Functionalities
+ ## Functionalities
 
-User registration and Login Stored in a Database
+### User registration and Login Stored in a Database
 
 The application will provide a registration process where users can create an account. The user information, such as username and password, will be securely stored in a database.
 In this application, firebase is used as database.
 Users can leave the application by clicking the "Exit" button in the menu area of ​​the program. The user doesn't have to enter their email address and password again in subsequent sessions if they don't click the "Exit" option.
 
-![My Image](Images/login.png)
+![My Image](Images/login.resized.png)
 
 ### Language Options
 
