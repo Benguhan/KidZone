@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "618662476386",
+    "project_id": "kidzone-b6173",
+    "storage_bucket": "kidzone-b6173.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618662476386:android:05a7192d971cb2102f6f3b",
+        "android_client_info": {
+          "package_name": "com.example.kidzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618662476386-aedp9ccd1u5eisd2avkp832t7g23stsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwThg4Y2zDeWpTXPfUtCDgLfnWd9pASeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618662476386-aedp9ccd1u5eisd2avkp832t7g23stsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

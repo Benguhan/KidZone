@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomeActivityTR">
+
+    <Button
+        android:id="@+id/PlayingButton2"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:onClick="playingClicked"
+        android:text="OYNA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LearningButton2" />
+
+    <Button
+        android:id="@+id/LearningButton2"
+        android:layout_width="333dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:onClick="learningClicked"
+        android:text="ÖĞREN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonING"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:text="English"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView16ING"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonING"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/engflag" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

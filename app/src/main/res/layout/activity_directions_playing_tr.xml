@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="409dp"
+    android:layout_height="808dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DirectionsPlayingActivityTR">
+
+        <TextView
+            android:id="@+id/textView17TR"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="771dp"
+            android:text="Verilen görsellerdeki doğru yönleri seçiniz"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView9TR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17TR"
+            app:srcCompat="@drawable/on" />
+
+        <ImageView
+            android:id="@+id/imageView10TR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9TR"
+            app:srcCompat="@drawable/in" />
+
+        <Button
+            android:id="@+id/trueButt1TR"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="45dp"
+            android:text="Üstünde"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/falseButt1TR"
+            app:layout_constraintStart_toEndOf="@+id/imageView9TR"
+            app:layout_constraintTop_toBottomOf="@+id/textView17TR" />
+
+        <Button
+            android:id="@+id/falseButt1TR"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="20dp"
+            android:text="Altında"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/trueButt1TR"
+            app:layout_constraintTop_toBottomOf="@+id/textView17TR" />
+
+        <Button
+            android:id="@+id/falseButt2TR"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="Üstünde"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/trueButt1TR"
+            app:layout_constraintTop_toBottomOf="@+id/trueButt1TR" />
+
+        <Button
+            android:id="@+id/trueButt2TR"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="20dp"
+            android:text="İçinde"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/falseButt2TR"
+            app:layout_constraintTop_toBottomOf="@+id/falseButt1TR" />
+
+        <ImageView
+            android:id="@+id/imageView11TR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView10TR"
+            app:srcCompat="@drawable/infront" />
+
+        <Button
+            android:id="@+id/trueButt3TR"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="Önünde"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/falseButt2TR"
+            app:layout_constraintTop_toBottomOf="@+id/falseButt2TR" />
+
+        <Button
+            android:id="@+id/falseButt3TR"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="20dp"
+            android:text="Arkada"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/trueButt3TR"
+            app:layout_constraintTop_toBottomOf="@+id/trueButt2TR" />
+
+        <ImageView
+            android:id="@+id/imageView12TR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11TR"
+            app:srcCompat="@drawable/behind" />
+
+        <Button
+            android:id="@+id/trueButt4TR"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="Arkada"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/trueButt3TR"
+            app:layout_constraintTop_toBottomOf="@+id/trueButt3TR" />
+
+        <ImageView
+            android:id="@+id/imageView13TR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView12TR"
+            app:srcCompat="@drawable/below" />
+
+        <Button
+            android:id="@+id/falseButt4TR"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="20dp"
+            android:text="Altında"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/trueButt4TR"
+            app:layout_constraintTop_toBottomOf="@+id/falseButt3TR" />
+
+        <Button
+            android:id="@+id/falseButt5TR"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="Üstünde"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/trueButt4TR"
+            app:layout_constraintTop_toBottomOf="@+id/trueButt4TR" />
+
+        <Button
+            android:id="@+id/trueButt5TR"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="20dp"
+            android:text="Altında"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/falseButt5TR"
+            app:layout_constraintTop_toBottomOf="@+id/falseButt4TR" />
+
+        <ImageView
+            android:id="@+id/imageView14TR"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="19dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13TR"
+            app:srcCompat="@drawable/arrows" />
+
+        <ImageView
+            android:id="@+id/imageView15TR"
+            android:layout_width="104dp"
+            android:layout_height="76dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView14TR"
+            app:srcCompat="@drawable/right" />
+
+        <Button
+            android:id="@+id/falseButt6TR"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:text="Sağ"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/falseButt5TR"
+            app:layout_constraintTop_toBottomOf="@+id/falseButt5TR" />
+
+        <Button
+            android:id="@+id/trueButt6TR"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="20dp"
+            android:text="Sol"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/falseButt6TR"
+            app:layout_constraintTop_toBottomOf="@+id/trueButt5TR" />
+
+        <Button
+            android:id="@+id/trueButt7TR"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:layout_marginBottom="100dp"
+            android:text="Sağ"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/falseButt6TR"
+            app:layout_constraintTop_toBottomOf="@+id/falseButt6TR" />
+
+        <Button
+            android:id="@+id/falseButt7TR"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="100dp"
+            android:text="Sol"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/trueButt7TR"
+            app:layout_constraintTop_toBottomOf="@+id/trueButt6TR" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
